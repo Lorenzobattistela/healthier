@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Treinos from './routes/treinos.jsx';
+import Login from './routes/login';
 import {
   BrowserRouter,
   Routes,
@@ -18,6 +19,7 @@ ReactDOM.render(
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="treinos" element={<Treinos />} />
+        <Route path="login" element={<Login />} />
       </Routes>
   </BrowserRouter>,
   </React.StrictMode>,
