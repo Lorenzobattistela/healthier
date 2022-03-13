@@ -11,14 +11,14 @@ class NavigationBar extends React.Component{
                 <Navbar.Brand href="/">
                     <img src={ logo } alt='logo' className='nav-logo'/>
                 </Navbar.Brand>
-                <Navbar.Brand href="/"><Link to='/treinos'><p className='nav-link' >Treinos</p></Link></Navbar.Brand>
-                <Navbar.Brand href="/"><Link to='/alimentacao'><p className='nav-link' >Alimentação</p></Link></Navbar.Brand>
-                <Navbar.Brand href="/"><Link to='/perfil'><p className='nav-link' >Perfil</p></Link></Navbar.Brand>
+                <Navbar.Brand href="/"><Link style={{ textDecoration: 'none' }} to='/treinos'><p className='nav-link' >Treinos</p></Link></Navbar.Brand>
+                <Navbar.Brand href="/"><Link style={{ textDecoration: 'none' }} to='/alimentacao'><p className='nav-link' >Alimentação</p></Link></Navbar.Brand>
+                <Navbar.Brand href="/"><Link style={{ textDecoration: 'none' }} to='/perfil'><p className='nav-link' >Perfil</p></Link></Navbar.Brand>
                 <button className='login-button' >
-                    <Navbar.Brand  href="/"><Link to='/login'><p className='nav-link' >Login</p></Link></Navbar.Brand>
+                    <Navbar.Brand  href="/"><Link style={{ textDecoration: 'none' }} to='/login'><p className='nav-link' >Login</p></Link></Navbar.Brand>
                 </button>
                 <button className='create-button' >
-                    <Navbar.Brand  href="/"><Link to='/criar-conta' ><p className='nav-link' >Criar Conta</p></Link></Navbar.Brand>
+                    <Navbar.Brand  href="/"><Link style={{ textDecoration: 'none' }} to='/criar-conta' ><p className='nav-link' >Criar Conta</p></Link></Navbar.Brand>
                 </button>
             </Navbar>
         )
