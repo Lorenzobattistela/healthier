@@ -1,0 +1,23 @@
+.form-create{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+    color: #F5F3F4;
+}
+
+.field {
+    padding: 0.7rem 2rem 0.7rem 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.form-button{
+    background-color: #E5383B;
+    color: #F5F3F4;
+    font-size: 1.2rem;
+    padding: 1rem 3rem 1rem 3rem;
+    border-radius: 15rem;
+    margin: 2rem 0rem 0rem 5.5rem;
+}
