@@ -1,4 +1,4 @@
-.form-create{
+.form-login{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -20,5 +20,4 @@
     padding: 1rem 3rem 1rem 3rem;
     border-radius: 15rem;
     margin: 2rem 0rem 0rem 5.5rem;
-    border: none;
 }

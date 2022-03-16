@@ -1,7 +1,7 @@
 import CreateAccountForm from '../components/create-account-form';
 import NavigationBar from '../components/navbar.jsx';
 
-export default function Login() {
+export default function CreateAccount() {
     return (
       <div>
         <NavigationBar/>

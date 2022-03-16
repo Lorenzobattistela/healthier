@@ -5,6 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Treinos from './routes/treinos.jsx';
 import CreateAccount from './routes/createaccount';
+import Login from './routes/login';
 import {
   BrowserRouter,
   Routes,
@@ -20,6 +21,7 @@ ReactDOM.render(
         <Route path="/" element={<App />} />
         <Route path="treinos" element={<Treinos />} />
         <Route path="criar-conta" element={<CreateAccount/>} />
+        <Route path="login" element={<Login/>}/>
       </Routes>
   </BrowserRouter>,
   </React.StrictMode>,

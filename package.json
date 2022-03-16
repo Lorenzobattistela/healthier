@@ -1,0 +1,16 @@
+{
+  "author": "Lorenzo Battistela",
+  "dependencies": {
+    "express": "^4.17.3",
+    "nodemon": "^2.0.15"
+  },
+  "name": "healthier-app",
+  "version": "1.0.0",
+  "description": "workout app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  }
+}
