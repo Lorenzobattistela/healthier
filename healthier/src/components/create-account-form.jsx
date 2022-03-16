@@ -12,7 +12,7 @@ class CreateAccountForm extends React.Component{
             <Form >
                 <Form.Group controlId="formBasicEmail">
                     <Form.Label>Endereço de e-mail</Form.Label>
-                    <Form.Control className='field' type="email" placeholder="Digite seu e-mail" />
+                    <Form.Control required className='field' type="email" placeholder="Digite seu e-mail" />
                     <Form.Text className="text-muted">
                         We'll never share your email with anyone else.
                     </Form.Text>
@@ -20,19 +20,19 @@ class CreateAccountForm extends React.Component{
 
                 <Form.Group controlId="formBasicName">
                     <Form.Label>Nome</Form.Label>
-                    <Form.Control className='field' type="text" placeholder="Digite seu nome completo" />
+                    <Form.Control required className='field' type="text" placeholder="Digite seu nome completo" />
                 </Form.Group>
 
                 <Form.Group controlId="formBasicBirthday">
                     <Form.Label>Data de nascimento</Form.Label>
-                    <Form.Control className='field' type="date" placeholder="Digite sua data de nascimento" />
+                    <Form.Control required className='field' type="date" placeholder="Digite sua data de nascimento" />
                 </Form.Group>
 
                 <Form.Group controlId="formBasicPassword">
                     <Form.Label>Senha</Form.Label>
-                    <Form.Control className='field' type="password" placeholder="Digite sua senha" />
+                    <Form.Control required className='field' type="password" placeholder="Digite sua senha" />
                 </Form.Group>
-                <button className='form-button' type='submit'>Enviar</button>
+                <button formAction='/login' formMethod='post'  className='form-button' type='submit'>Enviar</button>
             </Form>
         )
     }
